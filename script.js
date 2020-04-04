@@ -1,6 +1,3 @@
-// alert('hello from Js') Connecting my Js
-
-
 
 // Using Vanilla Js for the DOM manipulation
 
