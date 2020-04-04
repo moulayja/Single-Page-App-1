@@ -109,7 +109,7 @@
   
   a:hover {
     background-color: rgba(14, 13, 13, 0.6);
-    color:white;
+    color:rgb(175, 10, 161);
     transition: all 200ms linear;
   }
 
