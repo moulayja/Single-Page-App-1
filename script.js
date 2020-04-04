@@ -14,7 +14,7 @@ const eva = document.getElementById("eva").addEventListener("click", displayEva)
 function clearDisplay() {
   let textToDisplay = document.getElementById("text");
   textToDisplay.innerHTML = "";
-  // removeEventListener('click', clearDisplay);
+  removeEventListener('click', clearDisplay);
 
     }
 
