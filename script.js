@@ -12,6 +12,9 @@ const eva = document.getElementById("eva").addEventListener("click", displayEva)
 
 // Display Aurora once Aurora Borealis Clicked
 
+
+// Looping each Class Name and giving it the same eventListener
+
 for (var k=0; k<home.length; k++){
  home[k].addEventListener("click", clearDisplay);
 }
@@ -23,9 +26,6 @@ function clearDisplay() {
 
     }
 
-
-
-
 // Display Aurora once Aurora Borealis Clicked
 
 function displayAurora() {
@@ -34,7 +34,6 @@ function displayAurora() {
 
     }
 
-
 // Display constellation once constellation Clicked
 
 function displayConstellation() {
@@ -42,11 +41,8 @@ function displayConstellation() {
     textToDisplay.innerHTML = "Constellation";
   
       }
-  
-
 
 // Display Earth once Earth Orbit Clicked
-
 
 function displayEarth() {
     let textToDisplay = document.getElementById("text");
@@ -56,7 +52,6 @@ function displayEarth() {
 
 
 // Display Eva once Eva Clicked
-
 
  function displayEva() {
         let textToDisplay = document.getElementById("text");
