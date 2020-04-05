@@ -1,7 +1,8 @@
 
 // Using Vanilla Js for the DOM manipulation
 
-const home = document.querySelector(".nothingToDisplay").addEventListener("click", clearDisplay, {once : true});
+const home = document.getElementsByClassName("nothingToDisplay")
+
 
 const aurora = document.getElementById("aurora").addEventListener("click", displayAurora);
 const constellation = document.getElementById("constellation").addEventListener("click", displayConstellation);
@@ -10,6 +11,10 @@ const eva = document.getElementById("eva").addEventListener("click", displayEva)
 
 
 // Display Aurora once Aurora Borealis Clicked
+
+for (var k=0; k<home.length; k++){
+ home[k].addEventListener("click", clearDisplay);
+}
 
 function clearDisplay() {
   let textToDisplay = document.getElementById("text");
